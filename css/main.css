@@ -354,7 +354,7 @@ font-size: 14px;
 	margin: 7%;
 }
 .conForm input {
-	color: black;
+	color: white;
 	padding: 15px 30px;
 	border: none;
 	margin-right: 3%;
@@ -373,7 +373,7 @@ font-size: 14px;
 	
 }
 .conForm textarea {
-	color: black;
+	color: white;
 	background-color: rgba(0, 0, 0, 0.2);
 	padding: 15px 30px;
 	margin-bottom: 18px;
