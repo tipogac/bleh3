@@ -476,12 +476,8 @@ font-size: 14px;
 	width: 200px;
 	margin-left: 35px;
 }
-.square-blocks .light-grey-bg {
-	background-color: rgba(0, 0, 0, 0.3);
-}
-.square-blocks .dark-grey-bg {
-	background-color: rgba(0, 0, 0, 0.3);
-}
+
+
 .square-blocks p {
 	font-family: 'Orbitron', sans-serif;
 	top: 50%;
@@ -495,6 +491,10 @@ font-size: 14px;
 
 .square-blocks a {
 	color: white;
+}
+
+.square-blocks .dark-grey-bg {
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .square-blocks a:hover {
@@ -556,9 +556,8 @@ font-size: 14px;
 	width: 200px;
 	margin-left: 35px;
 }
-.square-blocks1 .light-grey-bg {
-	background-color: rgba(0, 0, 0, 0.3);
-}
+
+
 .square-blocks1 .dark-grey-bg {
 	background-color: rgba(0, 0, 0, 0.3);
 }
@@ -681,23 +680,29 @@ font-size: 14px;
 
 
 #show {
-
+background-color: rgba(0, 0, 0, 0.3);
+border-radius:30px;
+border: solid white;
 }
 
 .button {
 	
     background-color: rgba(0, 0, 0, 0.3);
-    border: 2px solid white;
+    border: 2px solid rgba(256,256,256,0.5);
 	width: 250px;
 	margin-left: 80px;
 	border-radius: 30px;
-	
+	color: rgba(256,256,256,0.5);
 }
 
 
 #show1 {
-
+background-color: rgba(0, 0, 0, 0.3);
+border-radius:30px;
+border: solid white;
 }
+
+
 
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
